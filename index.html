@@ -1,11 +1,264 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title></title>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Gagandeep Singh</title>
+  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="icon" type="image/ico" href="favicon.ico">
+  <link href='https://fonts.googleapis.com/css?family=Questrial' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css">
+  <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
+  <link href='https://fonts.googleapis.com/css?family=Lato%7CArimo' rel='stylesheet' type='text/css'>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <script src="/main.js"></script>
+  <script src="parallax.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+</script>
+ <style>
+body, html, .main {
+    height: 100%;
+}
+
+section {
+    min-height: 100%;
+}
+</style>
 </head>
 <body>
+<!-- HOME -->
+<div id="home-ref" class="navbar-fixed">
+  <nav>
+    <div class="nav-wrapper black">
+      <a href="index.html#about-ref" class="brand-logo left"><h3 id="name" class="show">Gagandeep Singh</h3></a>
+      <ul id="nav-mobile" class="right">
+        <li><a href="index.html#about-ref">About</a></li>
+        <li><a href="#skills-ref">Skills</a></li>
+        <li><a href="index.html#work-ref">Work</a></li>
+        <li><a href="design.html">Design</a></li>
+        <li><a href="artwork.html">Paintings</a></li>
+        <li><a href="drawing.html">Drawings</a></li>
+        <li><a href="index.html#contact-ref">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+</div>
 
-  <h1>Herro</h1>
-  <h2>wassup</h2>
+<!--
+<div class="parallax-window" data-parallax="scroll" data-image-src="assets/images/bird.JPG"></div>
+<div id="home" class="image">
+<div id="about-ref" class="section white">
+      -->
+      <div id="home" class="image">
+      <div id="about-ref" class="section white">
+      <div class="heading">
+      <br>
+        <h1 class="main-h1">Gagandeep Singh</h1>
+        <br>
+        <h3 class="main-h3">Front End Web Developer</h3>
+      </div>
+    </div>
+ <div class="wrapper">
+<!-- ABOUT -->
+  <div id="cols" class="row container">
+    <div class="about-header">
+      <h4><strong></strong></h4>
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-8">
+      <div id="about-content">
+        <p> As a web developer with previous background experience in Art and Design, I am creative and enthusiastic about solving problems and learning new skills. I look forward to pushing the boundaries of the creative process to find logical and effective solutions in Web Development.</p>
+      </div>
+      <div>
+        <p>Along with my Developer Skills, I am an Artist. I enjoy the traditional mediums such as Oil Paint, Watercolor, Graphite and Fountain Pen. Check out my Drawings and <a href="artwork.html">Paintings</a> and <a href="drawing.html">Drawings</a> that I've completed in CSUN. </p>
+      </div>
+    </div>
+   <!--  <div class="col-xs-12 col-sm-6 col-md-8">
+      <!<div id="about-content">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis beatae error quos facere dignissimos magni, maxime, pariatur expedita saepe esse itaque commodi maiores repellat architecto dolore tempora! Maxime, soluta, facere.</p>
+      </div> -->
+<!--     </div>
+ --><!--     <div class="col-xs-12 col-sm-6 col-md-8">
+ -->      <!-- <div id="about-content">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores aliquam porro nam, numquam nisi. Nobis animi, deserunt, maiores voluptate laudantium inventore! Rem beatae corporis eveniet deserunt unde nam natus, maiores.</p>
+      </div> -->
+    </div>
+  </div>
+</div>
+<div>
+    <div class="parallax-window" data-parallax="scroll" data-image-src="assets/images/SM.jpg"></div>
+</div>
+<!-- SKILLS -->
+<div id="skills-ref" class="section">
+  <div id="cols" class="row container skills">
+    <div class="devicons">
+      <p><i class="devicon-html5-plain-wordmark"></i></p>
+      <p><i class="devicon-css3-plain-wordmark"></i></p>
+      <p><i class="devicon-javascript-plain"></i></p>
+      <p><i class="devicon-jquery-plain-wordmark"></i></p>
+      <p><i class="devicon-ruby-plain"></i></p>
+      <p><i class="devicon-angularjs-plain"></i></p>
+      <p><i class="devicon-rails-plain"></i></p>
+      <p><i class="devicon-nodejs-plain"></i></p>
+      <p><i class="devicon-amazonwebservices-original"></i></p>
+      <p><i class="devicon-bootstrap-plain"></i></p>
+      <p><i class="devicon-photoshop-plain"></i></p>
+    </div>
+  </div>
+ <ul class="list-unstyled">
+                  <li><i class="fa fa-caret-right pr-10 text-colored"style="color:orange"></i> <b>Art & Design:</b> Adobe Photoshop | Adobe Illustrator | Adobe InDesign | Illustration | Concept Art| Storyboarding| Oil Painting | Watercolor | Sculpture | Drawing </li>
+                  <li><i class="fa fa-caret-right pr-10 text-colored"style="color:orange"></i> <b>Programming:</b> JavaScript |  Ruby | HTML5 | CSS3 | SaSS| Node.js |  Express| Rails | Angular | jQuery | Bootstrap | WordPress | MongoDB | SQL | PostgreSQL</li>
+                  <li><i class="fa fa-caret-right pr-10 text-colored"style="color:orange"></i> <b>Marketing:</b> SEO | Google Analytics | Project Management | Social Media Marketing | Brand Positioning |</li>
+                  <li><i class="fa fa-caret-right pr-10 text-colored"style="color:orange"></i> <b>Other Skills:</b> Team Experience |  Customer Service -Sales  |Multilingual ( Punjabi, Hindi, Spanish) </li>
+                </ul>
+    <div>
+</div>
+         <!--      <div class="skills">
+                <i class="devicon devicon-angularjs-plain-wordmark colored"></i>
+                <i class="devicon devicon-css3-plain-wordmark colored"></i>
+                <i class="devicon devicon-github-plain-wordmark colored"></i>
+                <i class="devicon devicon-heroku-original-wordmark colored"></i>
+                <i class="devicon devicon-javascript-plain colored"></i>
+              </div>
+
+              <div class="skills">
+                <i class="devicon devicon-jquery-plain-wordmark colored"></i>
+                <i class="devicon devicon-mongodb-plain-wordmark colored"></i>
+                <i class="devicon devicon-nodejs-plain-wordmark colored"></i>
+                <i class="devicon devicon-ruby-plain-wordmark colored"></i>
+              </div>
+
+              <div class="skills">
+                <i class="devicon devicon-trello-plain-wordmark colored"></i>
+                <i class="devicon devicon-bootstrap-plain-wordmark colored"></i>
+                <i class="devicon devicon-html5-plain-wordmark colored"></i>
+                <i class="devicon devicon-sass-original colored"></i>
+                <i class="devicon devicon-gulp-plain colored"></i>
+
+              </div> -->
+            <h1><img src="assets/images/icon.png" ></h1>
+
+<!-- WORK -->
+<div>
+    <div class="parallax-window" data-parallax="scroll" data-image-src="assets/images/bird.JPG"></div>
+</div>
+<div id="work-ref" class="section white">
+  <div class="row container ">
+    <ul id="work-content">
+      <li id="work-item">
+        <div id="work2">
+          <a target="_blank" href="https://calm-retreat-74821.herokuapp.com/">
+            <img id="work-img" src="assets/P1.png">
+          </a>
+        </div>
+        <div id="work2">
+          <div id="work-name">Creative Station</div>
+          <p>A networking platform for Graphic and Visual artist to communicate and share projects</p>
+        </div>
+        </li>
+        <li id="work-item">
+          <div id="work1">
+            <a target="_blank" href="https://thawing-shelf-34728.herokuapp.com/">
+              <img id="work-img" src="assets/P2.png">
+            </a>
+          </div>
+        <div id="work2">
+          <div id="work-name">Share App</div>
+          <p>Application that allow people to communicate what different schedules, which they can compare and communicate back and forth.</p>
+        </div>
+        </li>
+        <li id="work-item">
+          <div id="work1">
+            <a target="_blank" href="http://www.singhgallery.com/Project1/#">
+              <img id="work-img" src="assets/P3.png">
+            </a>
+          </div>
+          <div id="work2">
+            <div id="work-name">Sushi Scrumble</div>
+            <p>Sushi Scrumble is meant to be a 1-player game. The goal of the game is to create a specific sushi for the customer using the right ingredients. If the player serves the wrong sushi more than 3 times, the store will close and the Game will be over.</p>
+          </div>
+        </li>
+        <li id="work-item">
+          <div id="work1">
+            <a target="_blank" href="http://singhgallery.com">
+              <img id="work-img" src="assets/P4.png">
+            </a>
+          </div>
+          <div id="work2">
+            <div id="work-name">Project 4</div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione omnis harum at magnam ex, maiores eum dolor, sequi, quis obcaecati ab fugit earum voluptate possimus quam. Voluptatibus id delectus modi!</p>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+<!-- MOM -->
+<div>
+    <div class="parallax-window" data-parallax="scroll" data-image-src="assets/images/bg-image-2.jpg"></div>
+</div>
+<div id="art-ref" class="section white">
+ <!--   <div class="row container">
+    <p>My Artwork goes here</p>
+    <div class="row container">
+      <span></span>
+    </div>
+    <div class="row container">
+      <span></span>
+    </div>
+    <div class="row container">
+      <span></span>
+    </div>
+  </div>
+</div>
+  <div class="parallax-container">
+    <div class="parallax-window" data-parallax="scroll" data-image-src="assets/claire_horse.jpg"></div>
+  </div>
+<! CONTACT -->
+<div id="contact-ref" class="section white">
+  <div class="row container">
+    <ul id="contact-list">
+      <li><a class="btn-floating btn-large hoverable black fa fa-github fa-2x" href="https://github.com/singhenso"  target="_blank"></a></li>
+      <li><a class="btn-floating btn-large hoverable black fa fa-linkedin fa-2x" href="https://www.linkedin.com/in/singhenso"  target="_blank"></a></li>
+      <li><a class="btn-floating btn-large hoverable black fa fa-camera fa-2x" href="http://www.singhgallery.com/"  target="_blank"></a></li>
+      <li><a class="btn-floating btn-large hoverable black fa fa-envelope fa-2x" href="mailto:singh.enso@gmail.com"  target="_blank"></a></li>
+    </ul>
+  </div>
+</div>
+
+<footer>
+  <div class="section black">
+    <div id="copyright">© 2016 Gagandeep Singh All rights reserved.</div>
+  </div>
+</footer>
+
 </body>
 </html>
