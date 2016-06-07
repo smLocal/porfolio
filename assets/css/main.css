@@ -141,8 +141,8 @@ i {
 
 .main-h1,  {
   font-size: 100px;
-  border-top: solid 5px blue;
-  border-bottom: solid 5px blue;
+  border-top: solid 5px black;
+  border-bottom: solid 5px black;
   padding-top: 15px;
   padding-bottom: 15px;
   margin: auto 406px;
@@ -164,8 +164,8 @@ i {
 
 h1 {
    font-size: 100px;
-  border-top: solid 5px black;
-  border-bottom: solid 5px black;
+  border-top: solid 5px blue;
+  border-bottom: solid 5px blue;
   padding-top: 15px;
   padding-bottom: 15px;
   margin: auto 406px;
