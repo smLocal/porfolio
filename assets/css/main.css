@@ -92,6 +92,7 @@ i {
   min-width: 800px;
 }
 
+
 #work1 {
   float: center;
 }
@@ -195,4 +196,8 @@ h1 {
   padding-bottom: 15px;
   margin: auto 406px;
   text-align: center;
+}
+
+.fa:hover {
+    color: red
 }
